@@ -1,0 +1,84 @@
+.h{
+    background-color: orange;
+    color: black;
+    font-size:20px;
+    text-decoration: underline;
+    font-weight: bold;
+    display: flex;
+}
+.k{
+        background-color: rgb(38, 38, 94);
+    color: rgb(249, 246, 246);
+    font-size:20px;
+    justify-content: center;
+    font-weight: bold;
+}
+.l{
+   font-size: 30px;
+    padding: 12px 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+.a{
+    background-color:  rgb(38, 38, 94);
+}
+
+.o{
+    font-size: 30px;
+    padding: 12px 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+    
+.q{
+    display: flex;
+    background-color: rgb(38, 38, 94);
+    color: rgb(249, 246, 246);
+    font-size:20px;
+    justify-content: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.u{
+ display: flex;
+ list-style: none;
+ gap: 25px;
+}
+.ho{
+    font-size: 30px;
+    padding: 12px 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+.lo{
+    text-align: center;
+}
+.s{
+    
+    display: flex;
+    background-color: darkcyan;
+}
+  .kl{
+    display: flex;
+    background-color:lavender;
+    color: black;
+}
+.f{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(38, 38, 94);
+    font-weight: bold;
+}
+.d{
+    text-align: center;
+}
+.i{
+    text-align: center;
+}
