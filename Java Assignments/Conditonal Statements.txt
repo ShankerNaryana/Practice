@@ -1,0 +1,218 @@
+#A Program
+class Main {
+    public static void main(String[] args) {
+String c="Hello World";
+        for(int i=0;i<1000;i++)
+        {
+            System.out.println(c);
+        }
+}
+}
+#B Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        int b = s.nextInt();
+        if (a < b) {
+            System.out.println("a < b");
+        } 
+        else if (a > b) {
+            System.out.println("a > b");
+        } 
+        else {
+            System.out.println("a == b");
+        }
+    }
+}
+#C Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int L=t.nextInt();
+        int B=t.nextInt();
+        System.out.println(L*B);
+    }
+}
+#G Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int n=t.nextInt();
+        int k=t.nextInt();
+        System.out.println(k%n);
+    }
+}
+#I Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++)
+        {
+        int X=t.nextInt();
+        if(X>98)
+        {
+            System.out.println("YES");
+        }
+        else{
+            System.out.println("NO");
+        }
+        }
+    }
+}
+#J Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++)
+        {
+        int X=t.nextInt();
+        if(X>=1 && X<=4)
+        {
+            System.out.println("YES");
+        }
+        else{
+            System.out.println("NO");
+        }
+        }
+    }
+}
+#K Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++)
+        {
+        int X=t.nextInt();
+        if(X>20)
+        {
+            System.out.println("HOT");
+        }
+        else{
+            System.out.println("COLD");
+        }
+        }
+    }
+}
+#M Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        int r=100;
+        for(int i=0;i<T;i++)
+        {
+        int X=t.nextInt();
+        System.out.println(r-X);
+        }
+    }
+}
+#N Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++) 
+        {
+            int A=t.nextInt();
+            int B=t.nextInt();
+            int C=t.nextInt();
+            int D=t.nextInt();
+            int f=A-C;
+            int s=B-D;
+            if(f<s)
+            {
+                System.out.println("First");
+            }
+            else if(f>s) {
+                System.out.println("Second");
+            }
+            else
+            {
+                System.out.println("Any");
+            }
+        }
+    }
+}
+#O Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++) 
+        {
+            int X=t.nextInt();
+            if(X<=15)
+            {
+                System.out.println("YES");
+            }
+            else
+            {
+                System.out.println("NO");
+            }
+        }
+    }
+}
+#P Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++) 
+        {
+            int N=t.nextInt();
+            int X=t.nextInt();
+if(X>=N){
+System.out.println(0);
+}
+else{
+            int a=N-X;
+            int b=(a+3)/4;
+            System.out.println(b);
+}
+        }
+    }
+}
+#Q Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++) 
+        {
+            int N=t.nextInt();
+            int X=t.nextInt();
+            int a=N*X;
+            int b=(a+3)/4;
+            System.out.println(b);
+        }
+    }
+}
+#R Program
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++) 
+        {
+            int N=t.nextInt();
+            double p=0.30*50*N;
+            System.out.println((int)p);
+        }
+    }
+}

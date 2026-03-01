@@ -1,0 +1,133 @@
+#A Program
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner t=new Scanner(System.in);
+	    int T=t.nextInt();
+	    for(int i=0;i<T;i++)
+	    {
+	        int X=t.nextInt();
+	        if(X>=2000)
+	        {
+	            System.out.println("YES");
+	        }
+	        else{
+	            System.out.println("NO");
+	        }
+	    }
+	}
+}
+#C Program
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner t=new Scanner(System.in);
+        int T=t.nextInt();
+        for(int i=0;i<T;i++)
+        {
+            int L=t.nextInt();
+            int R=t.nextInt();
+            int M=t.nextInt();
+            int p=(M+L-1)/L;
+            int l=M/R;
+            System.out.println(p+l);
+        }
+    }
+}
+#F Program
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner c=new Scanner(System.in);
+        int T=c.nextInt();
+for(int t=0; t<T;t++)
+{
+            int A1=sc.nextInt();
+            int A2=sc.nextInt();
+            int A3=sc.nextInt();
+            int B1=sc.nextInt();
+            int B2=sc.nextInt();
+            int B3=sc.nextInt();
+            int cs=A1+A2+A3;
+            int hs=B1+B2+B3;
+            if(cs==hs) 
+	    {
+                System.out.println("Pass");
+            } 
+	    else
+            {
+                System.out.println("Fail");
+            }
+        }
+    }
+}
+#G Program
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner c=new Scanner(System.in);
+        int N=c.nextInt();
+        int[] arr=new int[N];
+        for (int i=0;i<N;i++) 
+	{
+            arr[i]=c.nextInt();
+        }
+        int max=arr[0];
+        for (int i=1;i<N;i++) {
+            if (arr[i]>max) {
+                max=arr[i];
+            }
+        }
+        System.out.println(max);
+    }
+}
+#H Program
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner c=new Scanner(System.in);
+        int N=c.nextInt();
+        int n=1;
+        for(int i=1;i<=N;i++) 
+{
+            for(int j=1;j<=i;j++) 
+{
+                System.out.print(num+" ");
+                num++;
+            }
+            System.out.println();
+        }
+    }
+}
+#P Program
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner c=new Scanner(System.in);
+        int N=c.nextInt();
+        for (int i=1;i<=N;i++) 
+{
+            System.out.println(N+"*"+i+"="+(N * i));
+        }
+    }
+}
+# Program
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner c=new Scanner(System.in);
+        int n=c.nextInt();
+        int[] arr=new int[n];
+        for (int i=0;i<n;i++) {
+            arr[i]=sc.nextInt();
+        }
+        for (int i=n-1;i>=0;i--) 
+{
+            System.out.print(arr[i]);
+            if (i!=0) {
+                System.out.print(" ");
+            }
+        }
+    }
+}
